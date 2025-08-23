@@ -2207,4 +2207,5 @@ def activity_logs():
     ''', activities=activities, page=page, total_pages=total_pages)
 
 if __name__ == '__main__':
+
     app.run(host='0.0.0.0', port=8080)
